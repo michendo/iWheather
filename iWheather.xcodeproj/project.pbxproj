@@ -12,6 +12,16 @@
 		836F99081F3597D1004537C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F99061F3597D1004537C3 /* Main.storyboard */; };
 		836F990A1F3597D1004537C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F99091F3597D1004537C3 /* Assets.xcassets */; };
 		836F990D1F3597D1004537C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F990B1F3597D1004537C3 /* LaunchScreen.storyboard */; };
+		836F99211F35983B004537C3 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F99161F35983B004537C3 /* Blood.png */; };
+		836F99221F35983B004537C3 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F99171F35983B004537C3 /* Moon.png */; };
+		836F99231F35983B004537C3 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F99181F35983B004537C3 /* Sun.png */; };
+		836F99241F35983B004537C3 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991A1F35983B004537C3 /* location.png */; };
+		836F99251F35983B004537C3 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991B1F35983B004537C3 /* location@2x.png */; };
+		836F99261F35983B004537C3 /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991C1F35983B004537C3 /* location@3x.png */; };
+		836F99271F35983B004537C3 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991D1F35983B004537C3 /* Refresh.png */; };
+		836F99281F35983B004537C3 /* Refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991E1F35983B004537C3 /* Refresh@2x.png */; };
+		836F99291F35983B004537C3 /* Refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836F991F1F35983B004537C3 /* Refresh@3x.png */; };
+		836F992A1F35983B004537C3 /* Weather Design Techmaster.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 836F99201F35983B004537C3 /* Weather Design Techmaster.sketch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		836F99091F3597D1004537C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836F990C1F3597D1004537C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		836F990E1F3597D1004537C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836F99161F35983B004537C3 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		836F99171F35983B004537C3 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		836F99181F35983B004537C3 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		836F991A1F35983B004537C3 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		836F991B1F35983B004537C3 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		836F991C1F35983B004537C3 /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@3x.png"; sourceTree = "<group>"; };
+		836F991D1F35983B004537C3 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		836F991E1F35983B004537C3 /* Refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
+		836F991F1F35983B004537C3 /* Refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@3x.png"; sourceTree = "<group>"; };
+		836F99201F35983B004537C3 /* Weather Design Techmaster.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather Design Techmaster.sketch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 		836F99011F3597D0004537C3 /* iWheather */ = {
 			isa = PBXGroup;
 			children = (
+				836F99141F35983B004537C3 /* Images */,
 				836F99021F3597D1004537C3 /* AppDelegate.swift */,
 				836F99041F3597D1004537C3 /* ViewController.swift */,
 				836F99061F3597D1004537C3 /* Main.storyboard */,
@@ -62,6 +83,39 @@
 				836F990E1F3597D1004537C3 /* Info.plist */,
 			);
 			path = iWheather;
+			sourceTree = "<group>";
+		};
+		836F99141F35983B004537C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				836F99151F35983B004537C3 /* Background Images */,
+				836F99191F35983B004537C3 /* Icon */,
+				836F99201F35983B004537C3 /* Weather Design Techmaster.sketch */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		836F99151F35983B004537C3 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				836F99161F35983B004537C3 /* Blood.png */,
+				836F99171F35983B004537C3 /* Moon.png */,
+				836F99181F35983B004537C3 /* Sun.png */,
+			);
+			path = "Background Images";
+			sourceTree = "<group>";
+		};
+		836F99191F35983B004537C3 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				836F991A1F35983B004537C3 /* location.png */,
+				836F991B1F35983B004537C3 /* location@2x.png */,
+				836F991C1F35983B004537C3 /* location@3x.png */,
+				836F991D1F35983B004537C3 /* Refresh.png */,
+				836F991E1F35983B004537C3 /* Refresh@2x.png */,
+				836F991F1F35983B004537C3 /* Refresh@3x.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +177,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F99231F35983B004537C3 /* Sun.png in Resources */,
+				836F99211F35983B004537C3 /* Blood.png in Resources */,
+				836F99281F35983B004537C3 /* Refresh@2x.png in Resources */,
+				836F992A1F35983B004537C3 /* Weather Design Techmaster.sketch in Resources */,
+				836F99291F35983B004537C3 /* Refresh@3x.png in Resources */,
 				836F990D1F3597D1004537C3 /* LaunchScreen.storyboard in Resources */,
+				836F99261F35983B004537C3 /* location@3x.png in Resources */,
+				836F99221F35983B004537C3 /* Moon.png in Resources */,
+				836F99241F35983B004537C3 /* location.png in Resources */,
+				836F99251F35983B004537C3 /* location@2x.png in Resources */,
 				836F990A1F3597D1004537C3 /* Assets.xcassets in Resources */,
 				836F99081F3597D1004537C3 /* Main.storyboard in Resources */,
+				836F99271F35983B004537C3 /* Refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
